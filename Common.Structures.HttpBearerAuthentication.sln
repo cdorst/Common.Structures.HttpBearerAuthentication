@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Structures.HttpBearerAuthentication", "Common.Structures.HttpBearerAuthentication\Common.Structures.HttpBearerAuthentication.csproj", "{550009F4-D798-4DC8-8470-D3EC1642E13C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{550009F4-D798-4DC8-8470-D3EC1642E13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550009F4-D798-4DC8-8470-D3EC1642E13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550009F4-D798-4DC8-8470-D3EC1642E13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550009F4-D798-4DC8-8470-D3EC1642E13C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D362C0D3-D74F-49E7-911B-1F6A3F49ED12}
+	EndGlobalSection
+EndGlobal
