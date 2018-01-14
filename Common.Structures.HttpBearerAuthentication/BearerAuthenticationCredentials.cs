@@ -1,10 +1,10 @@
-﻿namespace Common.Structures.HttpBearerAuthentication
+﻿using Common.Structures.HttpAuthentication;
+
+namespace Common.Structures.HttpBearerAuthentication
 {
     public class BearerAuthenticationCredentials : HttpAuthentication.HttpAuthentication
     {
-        private const string Bearer = nameof(Bearer);
-
-        public BearerAuthenticationCredentials(string secret) : base(Bearer, secret)
+        public BearerAuthenticationCredentials(string secret) : base(PrefixType.Bearer, secret)
         {
         }
     }
